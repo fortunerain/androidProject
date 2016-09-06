@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\WorkSpace\AndroidStudio\sdk\samples\android-19\ui\SlidingTabsBasic\SlidingTabsBasicSample\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-92186ae7526a2125b1fbbbd5c8fe877dc773214b.jar"
+        jar="C:\WorkSpace\AndroidStudio\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="C:\WorkSpace\AndroidStudio\sdk\samples\android-19\ui\SlidingTabsBasic\SlidingTabsBasicSample\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-64448b84ef357e7f1d30837f3930d7bd77f05cce.jar"
+        jar="C:\WorkSpace\AndroidStudio\sdk\samples\android-19\ui\SlidingTabsBasic\SlidingTabsBasicSample\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="C:\WorkSpace\AndroidStudio\sdk\samples\android-19\ui\SlidingTabsBasic\SlidingTabsBasicSample\build\intermediates\pre-dexed\debug\classes-4b8e448cb5ff58328d7f9e5b201aeb429414cf06.jar"
+        jar="C:\WorkSpace\AndroidStudio\sdk\samples\android-19\ui\SlidingTabsBasic\SlidingTabsBasicSample\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+
+</pre-dex-items>

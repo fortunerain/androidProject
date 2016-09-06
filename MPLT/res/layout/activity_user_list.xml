@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.accenture.mplt.UserListFragment" >
+
+    <LinearLayout 
+        android:id="@+id/userlist_layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <TextView 
+            android:id="@+id/userlist_text_deadline"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/bright_gray_color"
+            />
+        <TextView 
+            android:id="@+id/userlist_text_userCnt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/dark_gray_color"
+            />
+        <TextView 
+            android:id="@+id/userlist_text_fee"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/white_color"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/wine_color"
+            />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/userlist_layout_listview"
+        android:layout_below="@+id/userlist_layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+    
+</RelativeLayout>

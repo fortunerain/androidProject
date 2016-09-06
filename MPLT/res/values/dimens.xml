@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 주차권 신청 UI -->
+    <dimen name="weight_dp">0dp</dimen>
+    <dimen name="regist_parking_lot_text_padding">5dp</dimen>
+    <dimen name="regist_parking_lot_list_content_h">18dp</dimen>
+</resources>

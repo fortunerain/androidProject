@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/userlist_text_header"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="0dp"
+        android:gravity="center_vertical"
+        android:textSize="10pt"
+         />
+    
+    <RelativeLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="48dp"
+        >
+        <ImageView
+            android:id="@+id/userlist_image_leftRedLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/userlist_image_leftRedLine"
+            android:src="@drawable/redline_left" />
+	    <TextView
+	        android:id="@+id/userlist_text_username"
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:paddingLeft="8dp"
+	        android:paddingRight="0dp"
+	        android:layout_alignParentLeft="true"
+	        android:gravity="center_vertical"
+	        android:textSize="12pt"
+	        android:typeface="sans" />
+	    
+	    <TextView
+	        android:id="@+id/userlist_text_eid"
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:paddingLeft="8dp"
+	        android:paddingRight="0dp"
+	        android:layout_alignParentLeft="true"
+	        android:gravity="center_vertical"
+	        android:textSize="12pt"
+	        android:visibility="invisible"
+	        android:typeface="sans" />
+
+	    <Button
+	        android:id="@+id/userlist_button_pay"
+	        android:layout_toLeftOf="@+id/userlist_button_dialog"
+	        android:layout_width="35dp"
+	        android:layout_height="35dp"
+	        android:layout_marginRight="5dp"
+	        android:layout_centerInParent="true"
+	        android:focusable="false" 
+	        />
+	    
+	    <Button
+	        android:id="@+id/userlist_button_dialog"
+	        android:layout_alignParentRight="true"
+	        android:layout_width="35dp"
+	        android:layout_height="35dp"
+	        android:layout_marginRight="15dp"
+	        android:layout_centerInParent="true"
+	        android:focusable="false" 
+	        />
+
+	</RelativeLayout>
+</LinearLayout>

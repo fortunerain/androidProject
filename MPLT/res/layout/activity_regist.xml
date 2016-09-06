@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.accenture.mplt.RegistActivity"
+    >
+
+	    <RelativeLayout
+	        android:id="@+id/regist_layout_head"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="4dp"
+	        android:layout_marginLeft="7dp"
+	        android:layout_marginRight="15dp"
+	        android:layout_marginTop="4dp" 
+	        android:gravity="center_vertical|center_horizontal" >
+	        <AutoCompleteTextView 
+	            android:id="@+id/regist_text_search"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:drawableLeft="@drawable/search"
+		        android:paddingLeft="20dp"
+	            android:imeOptions="actionSearch"
+	            android:layout_centerVertical="true"
+		        android:layout_toLeftOf="@+id/regist_button_search"
+		        android:background="@drawable/xml_border"
+		        android:dropDownVerticalOffset="5dp"
+		        android:dropDownWidth="wrap_content"
+		        android:inputType="textAutoComplete|textAutoCorrect"
+		        android:gravity="center_vertical|center_horizontal"
+		        android:hint="@string/regist_hint_search" 
+		        android:textColorHint="@color/wine_color"/>
+
+		    <Button
+		        android:id="@+id/regist_button_search"
+		        android:layout_width="60dp"
+		        android:layout_height="30dp"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:layout_marginLeft="5dp"
+		        android:background="@drawable/button_border"
+		        android:gravity="center_vertical|center_horizontal"
+		        android:text="@string/regist_button_search"
+		        android:textColor="@color/white_color"
+		        android:textSize="10pt" />
+	    </RelativeLayout>
+        <ListView 
+            android:id="@+id/regist_layout_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        </ListView>
+
+</LinearLayout>

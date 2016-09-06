@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MPLT</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- 메인 UI -->
+    <string name="main_title">MPLT</string>
+
+    <!-- 신청자 현황 -->
+    <string name="userlist_title">User List</string>
+    <string name="userlist_text_currCnt">Current Number </string>
+    <string name="userlist_text_dueDate">Due Date </string>
+    <string name="userlist_text_monetary_unit">KRW </string>
+    <string name="userlist_image_leftRedLine">userlist_image_leftRedLine</string>
+    <!-- <string name="title_activity_password_custom_dialog">PasswordCustomDialog</string> -->
+
+
+    <!-- 주차권 신청 UI -->
+    <string name="regist_title">Parking Register</string>
+    <string name="regist_hint_search">Search Enterpirse ID</string>
+    <string name="regist_button_search">Search</string>
+    <string name="regist_text_header1">Last 6 months</string>
+    <string name="regist_text_header2">All Members</string>
+        
+
+    <!-- 설정 UI -->
+    <string name="setting_title">Setting</string>
+    <string name="setting_text_period">Terms of Use</string>
+    <string name="setting_text_period_start">Start Date</string>
+    <string name="setting_text_period_end">End Date</string>
+    <string name="setting_text_locked">Activity Status</string>
+    <string name="setting_text_month">Month</string>
+    <string name="setting_button_save">Save</string>
+
+    <!-- toast 메세지 -->
+    <string name="setting_save_success">Saved successfully.</string>
+    <string name="setting_save_fail">Save failed.</string>
+    <string name="error_eno_empty">Please enter your Enterprise No.</string>
+    <string name="error_eno_notmatch">E-No does not match.</string>
+    <string name="error_eid_empty">Please enter your Enterprise ID.</string>
+
+    <!-- 팝업 -->
+    <string name="popup_text_cancel">Enter the Enterprise No, \nwhen you click OK, the parking ticket will be canceled.</string>
+    <string name="popup_text_cancel_admin">when you click OK, the parking ticket will be canceled.</string>
+    <string name="popup_text_regist">Enter the Enterprise No, \nwhen you click OK, the parking ticket will be registered.</string>
+    <string name="popup_text_regist_admin">when you click OK, the parking ticket will be registered.</string>
+    <string name="popup_text_login_admin">Please enter the admin password.</string>
+    <string name="popup_button_ok">OK</string>
+    <string name="popup_button_cancel">CANCEL</string>
+    <string name="popup_text_pay">Change it to the state fee has been paid.</string>
+    <string name="popup_text_paid">Change it to the state fee has been canceled.</string>
+
+    <!-- tab -->
+    <string name="tab_image_icon">tab icon stub text</string>
+    <string name="tab_image_bar">tab bar stub text</string>
+
+    <!-- action bar -->
+    <string name="actionbar_title">action bar title stub text</string>
+    <string name="actionBar_image_auth">action bar authImage stub text</string>
+    <string name="actionBar_image_right">action bar rightImage stub text</string>
+    
+    <!-- tag -->
+    <string name="paid">paid</string>
+    <string name="pay">pay</string>
+    
+</resources>

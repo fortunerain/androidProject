@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+    
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:orientation="horizontal">
+        
+        <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="&quot;검색어를 입력하시오&quot;" />
+
+	    <Button
+	        android:id="@+id/searchBtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="검색" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:orientation="horizontal">
+	    <Button
+	        android:id="@+id/searchBtnx10"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="x10" />
+	    <Button
+	        android:id="@+id/searchBtnx20"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="x20" />
+	    <Button
+	        android:id="@+id/searchBtnx40"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="x40" />
+	</LinearLayout>
+    
+
+</LinearLayout>

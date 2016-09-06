@@ -1,0 +1,30 @@
+[
+	{
+		"color": "RED",
+		"value": "#FC0D0D"
+	},
+	{
+		"color": "SKY",
+		"value": "#01A7B0"
+	},
+	{
+		"color": "BLUE",
+		"value": "#2F00FF"
+	},
+	{
+		"color": "GREEN",
+		"value": "#3AAD00"
+	},
+	{
+		"color": "PINK",
+		"value": "#FA68CA"
+	},
+	{
+		"color": "YELLOW",
+		"value": "#F7FF02"
+	},
+	{
+		"color": "BLACK",
+		"value": "#000000"
+	}
+]

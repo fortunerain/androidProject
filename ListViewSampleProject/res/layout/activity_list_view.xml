@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.kdc.minhonoh.nmhproject.ListViewActivity" 
+    android:orientation="vertical"
+    >
+
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:id="@+id/mainTitle"
+        android:gravity="center"
+        android:text="Browse"
+        />
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:id="@+id/search"
+        android:onClick="goSearchActivity"
+        >
+
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/iconsearch" />
+
+        <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="5"
+	        android:gravity="center_vertical"
+	        android:text="Search"
+	        />
+    </LinearLayout>
+    
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView1"
+        />
+
+</LinearLayout>

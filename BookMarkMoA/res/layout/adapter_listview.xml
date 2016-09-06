@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="70dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" 
+    android:layout_margin="5dp"
+    >
+
+        <ImageView
+            android:id="@+id/img_favicon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/ic_launcher" />
+
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_vertical"
+		    android:orientation="vertical" 
+		    android:layout_weight="5"
+		    >
+
+	        <TextView
+	            android:id="@+id/txt_title"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_vertical"
+	            android:text="test"
+	            android:textColor="#000000"
+	            android:textSize="15dp"
+	            android:textStyle="bold"
+	            android:typeface="sans" />
+
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="30dp"
+		        android:gravity="center_vertical"
+		        android:orientation="horizontal" >
+
+		        <TextView
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:gravity="center_vertical"
+		            android:id="@+id/txt_url"
+		            android:text="test"
+					android:layout_weight="3"
+		            />
+
+		        <ImageView
+		            android:id="@+id/img_thumb"
+		            android:layout_width="35dp"
+		            android:layout_height="35dp"
+		            android:layout_marginRight="5dp"
+		            android:gravity="center_vertical"
+		            android:layout_weight="1"
+		            android:src="@drawable/likeinactive" />
+
+		        <TextView
+		            android:layout_width="50dp"
+		            android:layout_height="30dp"
+		            android:id="@+id/txt_visits"
+		            android:gravity="center_vertical"
+		            android:layout_weight="1"
+		            android:text="test"
+		
+		            />
+	        </LinearLayout>
+        </LinearLayout>
+
+		<ImageView
+		    android:id="@+id/img_arrow"
+		    android:layout_width="20dp"
+		    android:layout_height="20dp"
+		    android:layout_weight="0.5"
+		    android:src="@drawable/iconarrows" />
+
+</LinearLayout>

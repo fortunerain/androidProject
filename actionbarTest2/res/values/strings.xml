@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">actionbarTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="menu_refresh">Refresh</string>
+	<string name="menu_search">Search</string>
+	<string name="menu_share">Share</string>
+
+	<string-array name="action_list">
+	    <item>ITEM 1</item>
+	    <item>ITEM 2</item>
+	    <item>ITEM 3</item>
+	</string-array>
+</resources>

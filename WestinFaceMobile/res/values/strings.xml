@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WestinFaceMobile</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 메인 UI -->
+    <string name="tab_title1">Activity</string>
+    <string name="tab_title2">단체프로그램</string>
+    <string name="tab_title3">시간표</string>
+
+    <!-- action bar -->
+    <string name="actionbar_title">신나는 액티비티 프로그램</string>
+    <string name="actionBar_image_auth">action bar authImage stub text</string>
+    <string name="actionBar_image_right">action bar rightImage stub text</string>
+
+
+</resources>

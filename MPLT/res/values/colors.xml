@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="regist_text_backgroud">#A9A9A9</color>
+    <color name="regist_button_backgroud">#B0C4DE</color>
+    <color name="action_bar_background_gray">#D5D5D5</color>
+    <color name="action_bar_title_gray">#4C4C4C</color>
+    
+    <color name="wine_color">#9F2824</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="bright_gray_color">#DDDDDD</color>
+    <color name="dark_gray_color">#aaa</color>
+    <color name="black_color">#000000</color>
+    
+    <color name="recently_six_month_head">#FFFFFF</color>
+    <color name="recently_six_month_head_backgroud">#9F2824</color>
+    <color name="all_register_users_head">#9F2824</color>
+    <color name="all_register_users_head_backgroud">#DDDDDD</color>
+</resources>

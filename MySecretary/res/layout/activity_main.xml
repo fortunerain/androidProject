@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mysecretary.MainActivity" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:layout_weight="1" >
+        <com.example.mysecretary.dragdrop.DragDropListView
+	        android:id="@+id/listView1"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1" />
+	    <com.example.mysecretary.dragdrop.DragDropListView
+	        android:id="@+id/listView2"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:background="@color/background_material_dark"
+        android:id="@+id/item_layout"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/background_material_light"
+            android:text="TextView" />
+
+    </LinearLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/subMenuTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20pt"
+        android:textColor="#000000"
+        android:text="화면 테스트" />
+
+    <Button
+        android:id="@+id/subMenuBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:onClick="screenAndDeadPixels"
+        android:text="불량 화소 테스트" />
+
+    <Button
+        android:id="@+id/subMenuBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:onClick="muliTouch"
+        android:text="멀티 터치 테스트" />
+
+</LinearLayout>

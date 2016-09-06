@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.accenture.mplt.MainActivity" >
+
+	<ImageView
+	    android:id="@+id/main_image_admin"
+	    android:layout_width="55dp"
+	    android:layout_height="55dp"
+	    android:layout_alignTop="@+id/main_image_start"
+	    android:layout_alignBaseline="@+id/main_image"
+	    android:layout_marginLeft="182dp"/>
+
+	<ImageView
+	    android:id="@+id/main_image_start"
+	    android:layout_width="55dp"
+	    android:layout_height="55dp"
+	    android:layout_alignBottom="@+id/main_image"
+	    android:layout_alignLeft="@+id/main_image"
+	    android:layout_marginBottom="5dp"
+	    android:layout_marginLeft="40dp"/>
+
+	<ImageView
+	    android:id="@+id/main_image"
+	    android:layout_width="307.5dp"
+	    android:layout_height="158.25dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="104dp"
+	    android:background="@drawable/main_full"/>
+
+	<ImageView
+	    android:id="@+id/main_image_logo"
+	    android:layout_width="120dp"
+	    android:layout_height="90dp"
+	    android:layout_above="@+id/main_image"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="21dp"
+	    android:background="@drawable/main_text"/>
+
+</RelativeLayout>
